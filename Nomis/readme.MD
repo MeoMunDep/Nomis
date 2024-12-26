@@ -1,5 +1,7 @@
 📞 Contact
 
+> [Termux guides if you run on mobile](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux.)
+
 > If you encounter any issues or have questions, feel free to reach out:
 
 - Contact: [Link](t.me/MeoMunDep)
@@ -15,6 +17,9 @@ To get started with the bot, follow these steps:
 0. **Dowload NodeJS to run the bot**
 
 -> [Link](https://t.me/KeoAirDropFreeNe/257/1462)
+
+-> Double click on setup.bat or setup.sh if you want to run automatically, remember to fill all the necessary data.
+
 
 1. **Install Dependencies and Modules:**
 
@@ -32,11 +37,12 @@ To get started with the bot, follow these steps:
 
 ```json
 {
+  "limit": 100,
+  "countdown": 300,
+  "country_time": "en-US",
   "isSkipInvalidProxy": false,
   "delayEachAccount": [5, 8],
-  "limit": 5, //number of accounts run in a row
-  "countdown": 300, //time to restarts all the accounts - count by seconds
-  "country_time": "vi-VN" //timestamp base on the country
+  "referralCode": "YQe1B1-3hK"
 }
 ```
 
