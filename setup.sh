@@ -34,7 +34,8 @@ create_default_configs() {
   "countdown": 300,
   "country_time": "en-US",
   "isSkipInvalidProxy": false,
-  "delayEachAccount": [5, 8]
+  "delayEachAccount": [5, 8],
+  "referralCode": "YQe1B1-3hK"
 }
 EOL
 }
