@@ -1,6 +1,6 @@
 📞 Contact
 
-> [Termux guides if you run on mobile](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux.)
+> [Termux guides if you run on mobile](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux)
 
 > If you encounter any issues or have questions, feel free to reach out:
 
@@ -24,7 +24,7 @@ To get started with the bot, follow these steps:
 1. **Install Dependencies and Modules:**
 
    ```
-   npm i user-agents axios colors p-limit https-proxy-agent socks-proxy-agent crypto ws uuid
+   npm i user-agents axios meo-forkcy-colors meo-forkcy-utils https-proxy-agent socks-proxy-agent 
    ```
 
 2. **Prepare Configuration Files:**
@@ -39,7 +39,6 @@ To get started with the bot, follow these steps:
 {
   "limit": 100,
   "countdown": 300,
-  "country_time": "en-US",
   "isSkipInvalidProxy": false,
   "delayEachAccount": [5, 8],
   "referralCode": "YQe1B1-3hK"
@@ -74,6 +73,6 @@ socks5://user:password@host:port
 💡 Usage:
 
 > You need to `cd` to the file after extract it
-> To run the bot, use the following command: `node bot`
+> To run the bot, use the following command: `node meomundep`
 
 🎇Enjoy!
