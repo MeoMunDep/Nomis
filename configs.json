@@ -1,7 +1,6 @@
 {
   "limit": 100,
   "countdown": 300,
-  "country_time": "en-US",
   "isSkipInvalidProxy": false,
   "delayEachAccount": [5, 8],
   "referralCode": "YQe1B1-3hK"
